@@ -9,11 +9,11 @@ type BigCardsProps = {
 const BigCards = ({ title, value }: BigCardsProps) => {
   return (
     <div className="wrapper">
-      <div className="inner rounded-3xl bg-[#fff] p-10">
-        <p className="title">
+      <div className="inner rounded-xl bg-[#fff] p-6">
+        <p className="title text-[#64748B] text-sm">
           {title}
         </p>
-        <b className="text-[#0F172A] text-4xl">
+        <b className="block mt-4 text-[#0F172A] text-4xl">
           {value}
         </b>
       </div>

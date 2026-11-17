@@ -5,12 +5,12 @@ const Header = () => {
     <div className='top-header'>
         <div className="inner-content flex justify-between items-center">
             <div className="left">
-                <h2 className='color-[#0F172A] font-bold text-4xl'>Dashboard</h2>
-                <p className='color-[#64748B] text-lg'>Welcome back, Alex!</p>
+                <h2 className='text-[#0F172A] font-bold text-3xl'>Dashboard</h2>
+                <p className='text-[#64748B] text-base mt-1'>Welcome back, Alex!</p>
             </div>
-            
+
             <div className="right">
-               <button className='bg-[#234E70] text-white px-10 rounded-md'>+ New Project</button>
+               <button className='bg-[#234E70] hover:bg-[#1C3F5B] text-white text-sm font-semibold px-9 py-3 rounded-lg'>+ New Project</button>
             </div>
         </div>
     </div>

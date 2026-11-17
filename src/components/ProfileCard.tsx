@@ -3,13 +3,13 @@ import React from 'react'
 const ProfileCard = () => {
   return (
     <div className='card-outer bg-[#F1F5F9] flex justify-center p-5'>
-        <div className="card-inner p-10 bg-white rounded-xl border-black border w-[400px]">
-            <div className="card-header flex-wrap flex gap-3 justify-start ">
+        <div className="card-inner p-10 bg-white rounded-xl border-black border w-[500px]">
+            <div className="card-header flex-wrap flex gap-3 justify-start items-center">
                 <div className="name-logo w-[72px] h-[72px] text-2xl flex justify-center items-center rounded-full bg-[#DBEAFE]">
                     <b>AJ</b>
                 </div>
                 <div className="name">
-                    <h2 className='color-[#0F172A] text-2xl'>Alex Johnson</h2>
+                    <h2 className='color-[#0F172A] text-2xl font-bold'>Alex Johnson</h2>
                     <p className='color-[#64748B]'>Frontend Developer</p>
                 </div>
             </div>
